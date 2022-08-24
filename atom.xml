@@ -3,11 +3,11 @@
   <title>呆鱼</title>
   <icon>https://www.gravatar.com/avatar/b260de47d013a2c79ab28567750a9710</icon>
   <subtitle>Hello</subtitle>
-  <link href="http://daiyu-233.top/atom.xml" rel="self"/>
+  <link href="https://daiyu-233.github.io/atom.xml" rel="self"/>
   
-  <link href="http://daiyu-233.top/"/>
+  <link href="https://daiyu-233.github.io/"/>
   <updated>2022-08-23T12:44:01.233Z</updated>
-  <id>http://daiyu-233.top/</id>
+  <id>https://daiyu-233.github.io/</id>
   
   <author>
     <name>呆鱼</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://daiyu-233.top/posts/4a17b156.html"/>
-    <id>http://daiyu-233.top/posts/4a17b156.html</id>
+    <link href="https://daiyu-233.github.io/posts/4a17b156.html"/>
+    <id>https://daiyu-233.github.io/posts/4a17b156.html</id>
     <published>2022-08-23T12:14:01.158Z</published>
     <updated>2022-08-23T12:44:01.233Z</updated>
     

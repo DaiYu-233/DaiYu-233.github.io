@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://daiyu-233.top/manifest.json</loc>
+    <loc>https://daiyu-233.github.io/manifest.json</loc>
     
     <lastmod>2022-08-24</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://daiyu-233.top/posts/4a17b156.html</loc>
+    <loc>https://daiyu-233.github.io/posts/4a17b156.html</loc>
     
     <lastmod>2022-08-23</lastmod>
     
@@ -21,7 +21,7 @@
   
 
   <url>
-    <loc>http://daiyu-233.top/</loc>
+    <loc>https://daiyu-233.github.io/</loc>
     <lastmod>2022-08-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
