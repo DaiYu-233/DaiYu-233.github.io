@@ -909,6 +909,7 @@ div#statistic a {
   margin: 5px;
 }
 
+
 /* 文章页版权信息美化 */
 #post .post-copyright{
   background-color: #d5d7d9;
@@ -926,6 +927,7 @@ div#statistic a {
 #category-bar{
   border-radius: 8px !important;
 }
+
 
 /* 页面占满全屏 */ /* 文章页与侧边块比例调节 */
 .layout.hide-aside {
@@ -949,6 +951,7 @@ div#statistic a {
     width: 100%;
   }}
 
+
 /* a标签 */
 #article-container a:not([data-fancybox=gallery]):not(.headerlink):not(.cf-friends-link):hover{
   color: #fff !important;
@@ -966,3 +969,23 @@ div#statistic a {
   text-decoration: none;
 }
 
+
+/* 友链 */
+#article-container .flink .flink-list > .flink-list-item{
+  width: 23%;
+}
+
+.flink-list-item a{
+  text-decoration: none !important;
+  border-bottom: none !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+
+#article-container .flink .flink-item-name{
+  padding-top: 5px !important;
+}
+
+#article-container .flink .flink-item-desc{
+  padding-top: 0;
+}
