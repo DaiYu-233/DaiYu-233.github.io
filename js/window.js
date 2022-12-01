@@ -1,4 +1,3 @@
-// document.getElementById('page-name').innerText = document.title.split(' | 安知鱼')[0];
 
 // 返回顶部 显示网页阅读进度
 window.onscroll = percent; // 执行函数
