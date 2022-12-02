@@ -2,24 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://daiyu-233.top/tools/index.html</loc>
-    
-    <lastmod>2022-12-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://daiyu-233.top/test/skip_render/%E7%99%BB%E5%BD%95%E9%A1%B5%E9%9D%A2/1/index.html</loc>
-    
-    <lastmod>2022-12-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://daiyu-233.top/manifest.json</loc>
     
     <lastmod>2022-12-02</lastmod>
@@ -74,6 +56,24 @@
   </url>
   
   <url>
+    <loc>https://daiyu-233.top/tools/index.html</loc>
+    
+    <lastmod>2022-12-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://daiyu-233.top/test/skip_render/%E7%99%BB%E5%BD%95%E9%A1%B5%E9%9D%A2/1/index.html</loc>
+    
+    <lastmod>2022-12-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://daiyu-233.top/posts/65a2.html</loc>
     
     <lastmod>2022-12-02</lastmod>
@@ -119,7 +119,7 @@
   </url>
   
   <url>
-    <loc>https://daiyu-233.top/404.html</loc>
+    <loc>https://daiyu-233.top/about/index.html</loc>
     
     <lastmod>2022-12-02</lastmod>
     
@@ -128,7 +128,7 @@
   </url>
   
   <url>
-    <loc>https://daiyu-233.top/about/index.html</loc>
+    <loc>https://daiyu-233.top/air/index.html</loc>
     
     <lastmod>2022-12-02</lastmod>
     
@@ -147,6 +147,15 @@
   
   <url>
     <loc>https://daiyu-233.top/essay/index.html</loc>
+    
+    <lastmod>2022-12-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://daiyu-233.top/404.html</loc>
     
     <lastmod>2022-12-02</lastmod>
     
