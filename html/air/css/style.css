@@ -1,3 +1,10 @@
+@font-face {
+  font-family: ZhuZiAYuanJWD;
+  src: url(https://cdn.cbd.int/anzhiyu-blog@1.1.6/fonts/ZhuZiAWan.woff2);
+  font-display: swap;
+  font-weight: lighter;
+}
+
 html,
 body {
   padding: 0;
@@ -20,12 +27,9 @@ body {
 .box {
   top: 15%;
   left: 8%;
-  /* background-color: brown; */
-  /* position: relative; */
   width: 175px;
   height: 175px;
   box-sizing: border-box;
-  /* display: flexbox; */
   position: relative;
 }
 
@@ -122,8 +126,6 @@ body {
   margin-left: 270px;
   border: 5px solid #808080;
   border-radius: 4px;
-  /* display: inline-block; */
-  /* float: right; */
 }
 
 .a2 {
@@ -134,8 +136,6 @@ body {
   margin-left: 270px;
   border: 5px solid #808080;
   border-radius: 4px;
-  /* display: inline-block; */
-  /* float: right; */
 }
 
 .a2 p {
@@ -174,15 +174,14 @@ body {
 }
 
 .s123 {
-/* position: absolute; */
 display: flex;
 justify-content: center;
 align-items: center;
 margin-top: -18%;
+font-family: ZhuZiAYuanJWD;
 }
 
 .switch-id1 {
-  /* background-color: forestgreen; */
   position: absolute;
   width: 45px;
   height: 45px;
@@ -197,7 +196,6 @@ margin-top: -18%;
   position: absolute;
   width: 45px;
   height: 45px;
-  /* background-color: red; */
   margin-top: 27px;
   margin-left: 422px;
   border-radius: 50%;
