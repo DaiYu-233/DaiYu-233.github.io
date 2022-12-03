@@ -971,9 +971,9 @@ div#statistic a {
 
 
 /* 友链 */
-#article-container .flink .flink-list > .flink-list-item{
-  width: 23%;
-}
+/* #article-container .flink .flink-list > .flink-list-item{
+  width: 23.775%;
+} */
 
 .flink-list-item a{
   text-decoration: none !important;
@@ -989,3 +989,15 @@ div#statistic a {
 #article-container .flink .flink-item-desc{
   padding-top: 0;
 }
+
+#article-container .flink .flink-list > .flink-list-item{
+  /* width: 19%; */
+  border: 1px solid rgb(128 128 128 / 21%);
+  background-color: white;
+  /* margin-left: 0.6%;
+  margin-top: 0; */
+}
+
+/* #article-container .flink .flink-list{
+  margin-left: 2%;
+} */
