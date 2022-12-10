@@ -1016,3 +1016,12 @@ div#statistic a {
 .tk-input .el-textarea__inner{
   min-height: 106px !important;
 }
+
+/* 表格 */
+.table-wrap{
+  background-color: white;
+}
+
+#article-container code {
+  font-family: 'ZhuZiAYuanJWD' !important;
+}
