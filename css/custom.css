@@ -1005,3 +1005,9 @@ div#statistic a {
 .qwert{
   font-size: 10px;
 }
+
+
+/* 朋友圈 */
+#article-container #cf-overshow.cf-show-now p a.cf-article-title:hover, #page .fcircle_page #fcircleContainer .cf-article a.cf-article-title:hover, #page #article-container .fcircle_page .title-h2-a-right a.random-post-all:hover, #page #article-container .fcircle_page .title-h2-a-left a.random-post-start:hover{
+  color: #425aef !important;
+}
