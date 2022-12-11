@@ -1017,11 +1017,58 @@ div#statistic a {
   min-height: 106px !important;
 }
 
-/* 表格 */
+/* 文章表格 */
 .table-wrap{
   background-color: white;
 }
 
 #article-container code {
   font-family: 'ZhuZiAYuanJWD' !important;
+}
+
+/* 侧边栏 */
+.fa-chevron-down:before{
+  content: none;
+}
+
+#sidebar #sidebar-menus .menus_items #bber-talk ul, li{
+  border: 2px solid lightseagreen;
+  margin-top: 7px !important;
+  border-radius: 9px;
+}
+
+#sidebar #sidebar-menus .menus_items .menus_item_child{
+  padding-left: 7px;
+}
+
+li.card-archive-list-item{
+  border: 0;
+}
+
+.card-category-list-item{
+  border: 0;
+}
+
+/* 分类 */
+.list-beauty li:before, .category-lists ul li:before{
+  border: 0;
+}
+
+#nav .menus_items .menus_item .menus_item_child li{
+  border: 0 !important;
+  margin: 0px !important;
+}
+
+.contrib-legend .legend li{
+  border: 2px solid;
+}
+
+.fcircle_page .author-content-item .card-content .banner-button-group{
+  width: 0;
+  height: 0;
+  margin: -9999999px;
+}
+
+#article-container ol li, #article-container ul li{
+  border: 0;
 }
