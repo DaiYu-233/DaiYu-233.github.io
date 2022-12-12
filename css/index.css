@@ -6989,7 +6989,7 @@ blockquote.pullquote.right {
     position: absolute;
     left: 0;
     bottom: 20px;
-    width: 100%;
+    width: 0;
     transition: 0.6s;
   }
 :root {
