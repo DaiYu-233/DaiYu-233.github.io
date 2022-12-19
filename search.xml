@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>ChatGPT接入QQ</title>
+      <link href="/posts/35ab.html"/>
+      <url>/posts/35ab.html</url>
+      
+        <content type="html"><![CDATA[<div class="note warning no-icon flat"><p>本教程使用的是官方开放接口，而非逆向接口。<br>官方开放接口，使用api key，无需重置token，新账号有18美元额度<del>（用完就再换一个）</del>。</p></div><h2 id="获取Api-Key"><a href="#获取Api-Key" class="headerlink" title="获取Api Key"></a>获取Api Key</h2><p>登录OpenAi官网：<a href="https://beta.openai.com/login/">https://beta.openai.com/login/</a></p><p>生成Api Key：<a href="https://beta.openai.com/account/api-keys">https://beta.openai.com/account/api-keys</a></p><h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><h3 id="安装Python"><a href="#安装Python" class="headerlink" title="安装Python"></a><a href="https://www.123pan.com/s/pt7RVv-7Pdtv">安装Python</a></h3><h3 id="下载代码"><a href="#下载代码" class="headerlink" title="下载代码"></a><a href="https://www.123pan.com/s/pt7RVv-bPdtv">下载代码</a></h3><h3 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h3><p>修改<code>./QBot/config.yml</code>，将<code>uin</code>替换为机器人QQ号</p><p>如果<code>QQ密码</code>为空则使用二维码登录</p><p><img src="https://pic.daiyu-233.top/pic/2022/12Chatgpt-qq-Qbot-config.yml.png" alt="13"></p><p>修改<code>./py/config.json</code></p><p><img src="https://pic.daiyu-233.top/pic/2022/12QQ-chagpt-py-config.json.png" alt="ee"></p><h3 id="安装依赖"><a href="#安装依赖" class="headerlink" title="安装依赖"></a>安装依赖</h3><p><img src="https://pic.daiyu-233.top/pic/2022/12/202212200006993.png" alt="322"></p><div class="note success no-icon flat"><p>Linux运行以下命令：(下面Windows的步骤省略)</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl --proto &#x27;=https&#x27; --tlsv1.2 -sSf https://sh.rustup.rs | sh</span><br></pre></td></tr></table></figure></div><p>输出以下信息后，输入<code>1</code>然后回车</p><p><img src="https://pic.daiyu-233.top/pic/2022/12/202212200012551.png" alt=""></p><p>接着在开始菜单打开<code>Visual Studio Installer</code></p><p><img src="https://pic.daiyu-233.top/pic/2022/12/202212200032016.png" alt="wetg"></p><p>安装C++</p><p><img src="https://pic.daiyu-233.top/pic/2022/12/202212200045291.png" alt="wef"></p><p><img src="https://pic.daiyu-233.top/pic/2022/12/202212200046070.png" alt="432"></p><h3 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h3><h4 id="逻辑处理端"><a href="#逻辑处理端" class="headerlink" title="逻辑处理端"></a>逻辑处理端</h4><p>Windows运行<code>./py/windows启动.bat</code></p><div class="note success no-icon flat"><p>Linux运行以下命令：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">前台运行</span></span><br><span class="line">py Qbot.py</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">后台运行</span></span><br><span class="line">nohup py Qbot.py &amp;</span><br></pre></td></tr></table></figure></div><h4 id="监听端"><a href="#监听端" class="headerlink" title="监听端"></a>监听端</h4><p>Windows运行<code>./QBot/go-cqhttp.bat</code></p><div class="note success no-icon flat"><p>Linux运行以下命令：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">前台运行命令</span></span><br><span class="line">./go-cqhttp</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">后台运行命令</span></span><br><span class="line">nohup ./go-cqhttp &gt; logs/`date -d yesterday +%Y%m%d`.log 2&gt;&amp;1 &amp;</span><br></pre></td></tr></table></figure></div><p>到此，ChatGPT接入QQ就正式启动完成了</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 经验分享 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>给Hexo加个后台 - Qexo</title>
       <link href="/posts/da27.html"/>
       <url>/posts/da27.html</url>
@@ -73,31 +92,6 @@
         <tags>
             
             <tag> Git </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Minecraft下载</title>
-      <link href="/posts/712e.html"/>
-      <url>/posts/712e.html</url>
-      
-        <content type="html"><![CDATA[<div class="tip info"><p><a href="/html/Minecraft版本库.html">点击跳转 Minecraft 版本库</a>    (仅提供资源，不保证页面安全)</p></div><h2 id="网页版"><a href="#网页版" class="headerlink" title="网页版"></a>网页版</h2><h3 id="跳转网页版mc"><a href="#跳转网页版mc" class="headerlink" title="跳转网页版mc"></a><a href="https://daiyu-233.top/html/minecraft.html">跳转网页版mc</a></h3><h2 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h2><h3 id="Minecraft正版购买-89CNY"><a href="#Minecraft正版购买-89CNY" class="headerlink" title="Minecraft正版购买-89CNY"></a><a href="https://www.minecraft.net/zh-hans/get-minecraft">Minecraft正版购买</a>-89CNY</h3><h3 id="官方启动器"><a href="#官方启动器" class="headerlink" title="官方启动器"></a><a href="https://www.minecraft.net/zh-hans/store/minecraft-java-bedrock-edition-pc">官方启动器</a></h3><h3 id="网易版"><a href="#网易版" class="headerlink" title="网易版"></a><a href="https://mc.163.com/index.html">网易版</a></h3><h3 id="PCl2启动器"><a href="#PCl2启动器" class="headerlink" title="PCl2启动器"></a><a href="https://afdian.net/p/0164034c016c11ebafcb52540025c377">PCl2启动器</a></h3><h3 id="HMCL启动器"><a href="#HMCL启动器" class="headerlink" title="HMCL启动器"></a><a href="https://hmcl.huangyuhui.net/download/">HMCL启动器</a></h3><h3 id="BakaXL启动器"><a href="#BakaXL启动器" class="headerlink" title="BakaXL启动器"></a><a href="https://www.bakaxl.com/">BakaXL启动器</a></h3><h2 id="Android"><a href="#Android" class="headerlink" title="Android"></a>Android</h2><h3 id="网易版-1"><a href="#网易版-1" class="headerlink" title="网易版"></a><a href="https://mc.163.com/index.html">网易版</a></h3><h3 id="HMCL-PE-备用-密码-81k2"><a href="#HMCL-PE-备用-密码-81k2" class="headerlink" title="HMCL-PE    |  备用        密码:81k2"></a><a href="http://share.daiyu-233.top:5244/file/HMCL-PE">HMCL-PE</a>    |  <a href="https://wwn.lanzoul.com/izscB0b1hb9a">备用</a>        密码:81k2</h3><h3 id="PojavLauncher-备用-密码-aypq"><a href="#PojavLauncher-备用-密码-aypq" class="headerlink" title="PojavLauncher    |  备用     密码:aypq"></a><a href="http://share.daiyu-233.top:5244/file/PojavLauncher">PojavLauncher</a>    |  <a href="https://wwn.lanzoul.com/izcCc0b1gtcf">备用</a>     密码:aypq</h3><h3 id="国际版"><a href="#国际版" class="headerlink" title="国际版"></a>国际版</h3><details class="folding-tag" yellow><summary> Minecraft-PE国际版全版本下载 (仅提供资源，不保证页面安全) </summary>              <div class='content'>              <iframe src="https://mcapks.com/" width="100%" height="700px"   frameborder="0"  name="myframe" scrolling="yes"></iframe>              </div>            </details><h2 id="IOS"><a href="#IOS" class="headerlink" title="IOS"></a>IOS</h2><h3 id="网易版-2"><a href="#网易版-2" class="headerlink" title="网易版"></a><a href="https://mc.163.com/index.html">网易版</a></h3><h3 id="国际版-1"><a href="#国际版-1" class="headerlink" title="国际版"></a>国际版</h3><p>可以参考B站UP@南坪枢纽站Official</p><div align=center class="aspect-ratio">  <iframe src="https://player.bilibili.com/player.html?aid=884762462&bvid=BV1qK4y1871R&cid=241508181&page=1"   scrolling="no"   border="0"   frameborder="no"   framespacing="0"   high_quality=1  danmaku=1   allowfullscreen="true">   </iframe></div>]]></content>
-      
-      
-      <categories>
-          
-          <category> 资源中心 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Minecraft </tag>
             
         </tags>
       
