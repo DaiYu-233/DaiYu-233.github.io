@@ -1,0 +1,1 @@
+var fullscreen=0;function FullScreen(){fullscreen%2==0?(document.documentElement.requestFullscreen(),fullscreen++):(document.webkitExitFullscreen(),fullscreen++)}
