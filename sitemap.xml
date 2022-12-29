@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://daiyu-233.top/test/index.html</loc>
+    
+    <lastmod>2022-12-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://daiyu-233.top/tools/index.html</loc>
     
     <lastmod>2022-12-29</lastmod>
@@ -83,15 +92,6 @@
   </url>
   
   <url>
-    <loc>https://daiyu-233.top/test/index.html</loc>
-    
-    <lastmod>2022-12-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://daiyu-233.top/essay/index.html</loc>
     
     <lastmod>2022-12-29</lastmod>
@@ -156,15 +156,6 @@
   
   <url>
     <loc>https://daiyu-233.top/posts/87a2.html</loc>
-    
-    <lastmod>2022-12-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://daiyu-233.top/posts/6eab.html</loc>
     
     <lastmod>2022-12-29</lastmod>
     
