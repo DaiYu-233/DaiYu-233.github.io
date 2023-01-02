@@ -1,0 +1,1 @@
+var CheckUrlDaiYuNUM=0;function CheckUrlDaiYu(a){new Promise((function(e,t){a||(t("无效路径"),btf.snackbarShow("链接无效")),$.ajax({url:a,type:"GET",dataType:"jsonp",complete:a=>{200==a.status?e(!0):e(!1)}})})).then((a=>{if(a){btf.snackbarShow("链接有效")}else btf.snackbarShow("链接无效")}))}
